@@ -1,6 +1,4 @@
-// Handle form submission for contact
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Message sent successfully!');
-    
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Thank you for your message, Victor will get back to you soon!");
 });
